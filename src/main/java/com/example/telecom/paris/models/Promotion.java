@@ -12,7 +12,6 @@ public class Promotion {
     }
 
     public int newId() {
-
         return (studentList.size() == 0 ? 1 : studentList.stream().max(comparing(Student::getId)).get().getId() + 1);
     }
 
@@ -21,7 +20,6 @@ public class Promotion {
             System.out.println(name);
         });
     }
-
     public int add(String firstName, String lastName) {
         int id = newId();
         studentList.add(new Student(id, firstName, lastName));
