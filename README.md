@@ -2,7 +2,7 @@ Sujet 2 afficher un objet de la classe Student
 
 1 - Launch in **_Terminal command_** : **mvn clean install**
 
-2 - Create a launcher with **Edit Configuration**  
+2 - Create a launcher with **Edit Configuration**
 
 ![img.png](src/main/resources/document/img.png)
 
